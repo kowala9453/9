@@ -1,0 +1,37 @@
+{
+  "title": "溫室塗白漆節能效果實驗",
+  "unit": "kWh／分地",
+  "area": {
+    "paintedFen": 2,
+    "controlFen": 3
+  },
+  "refrigeratorAdjustment": "對照組耗電量已扣除冰箱用電後，再換算為每分地數值。",
+  "periods": [
+    {
+      "label": "第一期",
+      "start": "6/18",
+      "end": "7/18",
+      "painted": 130.65,
+      "control": 219.60
+    },
+    {
+      "label": "第二期",
+      "start": "7/18",
+      "end": "8/18",
+      "painted": 77.10,
+      "control": 143.80
+    },
+    {
+      "label": "第三期",
+      "start": "8/18",
+      "end": "9/16",
+      "painted": 195.55,
+      "control": 397.90
+    }
+  ],
+  "totals": {
+    "painted": 403.30,
+    "control": 761.30
+  },
+  "interpretationNote": "累計每分地耗電差為 358.00 kWh／分地；以對照組為基準的耗電差異率約 47.0%。這是兩組觀測資料的差異，不可直接視為白漆造成的確定節電效果。"
+}

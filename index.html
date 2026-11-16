@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="整理溫室塗白漆節能實驗的研究筆記、耗電數據、計算方式與研究限制。">
+  <title>溫室研究筆記｜Greenhouse Lab Notes</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="home">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><span class="brand-mark">葉</span><span>溫室研究筆記<small>GREENHOUSE LAB NOTES</small></span></a>
+      <button class="menu-toggle" data-menu-toggle aria-expanded="false" aria-label="開啟導覽選單">選單</button>
+      <nav class="site-nav" data-site-nav aria-label="主要導覽">
+        <a href="index.html" data-nav-page="home">首頁</a>
+        <a href="pages/white-paint.html" data-nav-page="experiment">白漆實驗</a>
+        <a href="pages/measurement-guide.html" data-nav-page="guide">資料與方法</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="eyebrow">FIELD NOTES · RESEARCH LOG</span>
+          <h1>把實驗資料，<br>整理成看得懂的筆記。</h1>
+          <p class="lead">這裡記錄溫室塗白漆節能實驗的背景、耗電數據與分析方法。除了呈現結果，也把資料限制一起留下來，讓每個結論都能回頭檢查。</p>
+          <div class="hero-actions">
+            <a class="button" href="pages/white-paint.html">查看白漆實驗 <span aria-hidden="true">→</span></a>
+            <a class="button secondary" href="pages/measurement-guide.html">了解資料怎麼算</a>
+          </div>
+        </div>
+        <aside class="hero-panel" aria-label="實驗觀察摘要">
+          <div class="panel-label">CURRENT RESEARCH NOTE</div>
+          <div class="panel-number">47.0%</div>
+          <div class="panel-caption">兩組累計每分地耗電量差異率（以對照組為基準）</div>
+          <div class="panel-note">這是目前觀測資料呈現的差異，不代表已單獨證實白漆造成相同比例的節電效果。</div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading"><h2>研究筆記索引</h2><p>從實驗數據到分析限制，分開整理。</p></div>
+        <div class="card-grid">
+          <article class="card">
+            <div class="card-icon">01</div>
+            <h3>白漆實驗紀錄</h3>
+            <p>查看三個觀測期間的每分地耗電量、差異率與比較圖表。</p>
+            <a class="card-link" href="pages/white-paint.html">閱讀實驗紀錄 →</a>
+          </article>
+          <article class="card">
+            <div class="card-icon">02</div>
+            <h3>資料與計算方法</h3>
+            <p>說明面積換算、冰箱用電扣除、耗電差計算與解讀限制。</p>
+            <a class="card-link" href="pages/measurement-guide.html">閱讀方法說明 →</a>
+          </article>
+          <article class="card">
+            <div class="card-icon">03</div>
+            <h3>持續更新的研究架構</h3>
+            <p>使用統一資料格式與頁面模板，未來可加入溫濕度、日照或設備紀錄。</p>
+            <a class="card-link" href="AGENTS.md">查看 AI 專案規則 →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading"><h2>目前資料摘要</h2><p>資料單位：kWh／分地</p></div>
+        <div class="stats-grid">
+          <div class="stat"><strong>403.30</strong><span>塗白漆組累計</span></div>
+          <div class="stat"><strong>761.30</strong><span>對照組累計</span></div>
+          <div class="stat"><strong>358.00</strong><span>每分地耗電差</span></div>
+          <div class="stat"><strong>47.0%</strong><span>耗電差異率</span></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><span>溫室研究筆記 · Greenhouse Lab Notes</span><span>資料以實驗紀錄為準 · <span data-year></span></span></div></footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

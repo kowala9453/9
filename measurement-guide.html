@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="溫室白漆實驗的資料處理、每分地耗電量計算與研究限制。">
+  <title>資料與方法｜溫室研究筆記</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body data-page="guide">
+  <header class="site-header"><div class="container header-inner">
+    <a class="brand" href="../index.html"><span class="brand-mark">葉</span><span>溫室研究筆記<small>GREENHOUSE LAB NOTES</small></span></a>
+    <button class="menu-toggle" data-menu-toggle aria-expanded="false" aria-label="開啟導覽選單">選單</button>
+    <nav class="site-nav" data-site-nav aria-label="主要導覽"><a href="../index.html" data-nav-page="home">首頁</a><a href="white-paint.html" data-nav-page="experiment">白漆實驗</a><a href="measurement-guide.html" data-nav-page="guide">資料與方法</a></nav>
+  </div></header>
+  <main>
+    <section class="page-hero"><div class="container">
+      <div class="breadcrumb"><a href="../index.html">首頁</a> ／ 資料與方法</div>
+      <span class="eyebrow">METHOD & DATA NOTES</span>
+      <h1>資料怎麼整理與解讀？</h1>
+      <p class="lead">說明目前耗電數據的換算方式、計算公式，以及解讀實驗結果時需要保留的限制。</p>
+    </div></section>
+    <div class="container content-layout">
+      <article class="article">
+        <section class="article-section" id="normalization">
+          <h2>為什麼使用每分地耗電量？</h2>
+          <p>塗白漆組面積為 2 分地，對照組面積為 3 分地，兩組面積不同。因此不宜只把兩組總耗電量直接並列比較，而是先換算成每分地耗電量，作為單位面積的初步比較基準。</p>
+          <p>對照組的電表資料已先扣除冰箱用電，再換算為每分地數值。這項處理方式應在報告中清楚交代。</p>
+        </section>
+        <section class="article-section" id="calculation">
+          <h2>計算方式</h2>
+          <h3>每期耗電差</h3>
+          <div class="callout">每分地耗電差 = 對照組每分地耗電量 − 塗白漆組每分地耗電量</div>
+          <h3>耗電差異率</h3>
+          <div class="callout">耗電差異率 =（每分地耗電差 ÷ 對照組每分地耗電量）× 100%</div>
+          <p>累計資料：761.30 − 403.30 = 358.00 kWh／分地。再以 358.00 ÷ 761.30 × 100%，得到約 47.0%。</p>
+        </section>
+        <section class="article-section" id="limitations">
+          <h2>目前資料的限制</h2>
+          <ul>
+            <li>兩組溫室的面積不同；換算每分地可改善比較基準，但不能消除所有環境差異。</li>
+            <li>目前這份耗電表沒有提供完整的溫度、濕度、日照強度及設備運轉時間紀錄。</li>
+            <li>設備配置、作物狀況與操作習慣若不同，也可能造成耗電差異。</li>
+            <li>冰箱用電扣除方式需要搭配原始記錄說明，確保計算可追溯。</li>
+          </ul>
+        </section>
+        <section class="article-section" id="next">
+          <h2>後續可以補充的資料</h2>
+          <p>若要更完整地理解白漆與溫室用電之間的關係，可在後續紀錄中同步整理溫室內外溫度、濕度、日照條件、風扇與噴霧設備啟停時間，以及設備規格。這些資料目前尚未完整呈現在本網站，因此不會把它們當成已知結果。</p>
+        </section>
+      </article>
+      <aside class="side-card"><h3>本頁導覽</h3><a href="#normalization">面積換算</a><a href="#calculation">計算方式</a><a href="#limitations">資料限制</a><a href="#next">後續資料</a><hr style="border:0;border-top:1px solid var(--line);margin:14px 0"><h3>相關頁面</h3><a href="white-paint.html">白漆實驗紀錄 →</a><a href="../index.html">回到首頁 →</a></aside>
+    </div>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><span>溫室研究筆記 · Greenhouse Lab Notes</span><span>資料以實驗紀錄為準 · <span data-year></span></span></div></footer>
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>
